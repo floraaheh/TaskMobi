@@ -9,7 +9,7 @@ struct CustomPasswordView: View {
     
     private let textFieldLeading: CGFloat = 40
     
-    var body: some View {
+    var body: some View { 
         SecureField(placeholder, text: $password)
             .frame(maxWidth: .infinity, minHeight: 44)
             .padding(.leading, sfSymbol == nil ? textFieldLeading / 2 : textFieldLeading)
