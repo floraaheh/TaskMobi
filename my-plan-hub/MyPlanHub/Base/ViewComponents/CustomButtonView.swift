@@ -8,7 +8,7 @@ struct CustomButtonView: View {
     let background: Color
     let foreground: Color
     let border: Color
-    let handler: ActionHandler
+    let handler: ActionHandler 
     
     private let cornerRadius : CGFloat = 10
     
