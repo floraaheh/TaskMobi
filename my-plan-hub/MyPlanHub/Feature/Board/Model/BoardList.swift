@@ -3,7 +3,7 @@ import Foundation
 
 enum BoardListKeys: String, CodingKey {
     case id, boardID, name, cards
-}
+} 
 
 class BoardList: NSObject, ObservableObject, Identifiable, Codable {
     
