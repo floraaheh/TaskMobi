@@ -5,7 +5,7 @@ class Card: NSObject, ObservableObject, Identifiable, Codable {
     private(set) var id = UUID()
     
     var boardListID: UUID
-    // Our swiftUI view will have a reference to this observable object, i.e., this content String.
+    // Our swiftUI view will have a reference to this observable object, i.e., this content String. 
     // Therefore, when this content is updated, the view will be updated (redrawn) when using the published property wrapper.
     @Published var cardContent: String
     
