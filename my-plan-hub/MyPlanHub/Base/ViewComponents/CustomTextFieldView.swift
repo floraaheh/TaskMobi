@@ -8,7 +8,7 @@ struct CustomTextFieldView: View {
     let keyboardType: UIKeyboardType
     let sfSymbol: String?
     
-    private let textFieldLeading: CGFloat = 30
+    private let textFieldLeading: CGFloat = 30 
     
     var body: some View {
         
