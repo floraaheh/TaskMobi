@@ -5,7 +5,7 @@ import Firebase
 @main
 struct MyPlanHubApp: App {
     
-    @StateObject private var session = SessionServiceViewModelController()
+    @StateObject private var session = SessionServiceViewModelController() 
     
     @StateObject private var boardViewModel = BoardViewModel()
     
